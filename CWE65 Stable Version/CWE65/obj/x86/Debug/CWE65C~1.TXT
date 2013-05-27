@@ -1,0 +1,9 @@
+\\proddata-dc1\groups\Clients\WLP2\Sean\CWE65 Stable Version\CWE65\obj\x86\Debug\FirstCWE65 Attempt.exe
+\\proddata-dc1\groups\Clients\WLP2\Sean\CWE65 Stable Version\CWE65\obj\x86\Debug\FirstCWE65 Attempt.pdb
+\\proddata-dc1\groups\Clients\WLP2\Sean\CWE65 Stable Version\CWE65\bin\Debug\FirstCWE65 Attempt.exe
+\\proddata-dc1\groups\Clients\WLP2\Sean\CWE65 Stable Version\CWE65\bin\Debug\FirstCWE65 Attempt.pdb
+\\proddata-dc1\groups\Clients\WLP2\Sean\CWE65 Stable Version\CWE65\obj\x86\Debug\ResolveAssemblyReference.cache
+\\proddata-dc1\groups\Clients\WLP2\Sean\CWE65 Stable Version\CWE65\obj\x86\Debug\CWE65.cweForm.resources
+\\proddata-dc1\groups\Clients\WLP2\Sean\CWE65 Stable Version\CWE65\obj\x86\Debug\WindowsFormsApplication1.Properties.Resources.resources
+\\proddata-dc1\groups\Clients\WLP2\Sean\CWE65 Stable Version\CWE65\obj\x86\Debug\GenerateResource.read.1.tlog
+\\proddata-dc1\groups\Clients\WLP2\Sean\CWE65 Stable Version\CWE65\obj\x86\Debug\GenerateResource.write.1.tlog
