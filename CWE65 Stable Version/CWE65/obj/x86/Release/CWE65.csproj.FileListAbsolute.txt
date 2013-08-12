@@ -1,0 +1,8 @@
+C:\Users\Zaidongy\Desktop\CWE65-WorkTest-master\CWE65 Stable Version\CWE65\bin\Release\FirstCWE65 Attempt.exe
+C:\Users\Zaidongy\Desktop\CWE65-WorkTest-master\CWE65 Stable Version\CWE65\bin\Release\FirstCWE65 Attempt.pdb
+C:\Users\Zaidongy\Desktop\CWE65-WorkTest-master\CWE65 Stable Version\CWE65\obj\x86\Release\CWE65.csprojResolveAssemblyReference.cache
+C:\Users\Zaidongy\Desktop\CWE65-WorkTest-master\CWE65 Stable Version\CWE65\obj\x86\Release\CWE65.cweForm.resources
+C:\Users\Zaidongy\Desktop\CWE65-WorkTest-master\CWE65 Stable Version\CWE65\obj\x86\Release\WindowsFormsApplication1.Properties.Resources.resources
+C:\Users\Zaidongy\Desktop\CWE65-WorkTest-master\CWE65 Stable Version\CWE65\obj\x86\Release\CWE65.csproj.GenerateResource.Cache
+C:\Users\Zaidongy\Desktop\CWE65-WorkTest-master\CWE65 Stable Version\CWE65\obj\x86\Release\FirstCWE65 Attempt.exe
+C:\Users\Zaidongy\Desktop\CWE65-WorkTest-master\CWE65 Stable Version\CWE65\obj\x86\Release\FirstCWE65 Attempt.pdb
