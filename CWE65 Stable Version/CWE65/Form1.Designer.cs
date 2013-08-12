@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(cweForm));
             this.typeCalc2 = new System.Windows.Forms.TabPage();
             this.numPerfsTextBox = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
@@ -52,6 +53,8 @@
             this.pressureTextLabel = new System.Windows.Forms.Label();
             this.formTabControl = new System.Windows.Forms.TabControl();
             this.outputTab = new System.Windows.Forms.TabPage();
+            this.defaultChosenRate = new System.Windows.Forms.Label();
+            this.thirdDefaultQualityTextBox = new System.Windows.Forms.TextBox();
             this.qualityLabel3 = new System.Windows.Forms.Label();
             this.theoreticalQualityBox = new System.Windows.Forms.TextBox();
             this.rateLabel = new System.Windows.Forms.Label();
@@ -341,6 +344,8 @@
             // 
             // outputTab
             // 
+            this.outputTab.Controls.Add(this.defaultChosenRate);
+            this.outputTab.Controls.Add(this.thirdDefaultQualityTextBox);
             this.outputTab.Controls.Add(this.qualityLabel3);
             this.outputTab.Controls.Add(this.theoreticalQualityBox);
             this.outputTab.Controls.Add(this.rateLabel);
@@ -360,6 +365,26 @@
             this.outputTab.Text = "Output";
             this.outputTab.UseVisualStyleBackColor = true;
             this.outputTab.Click += new System.EventHandler(this.outputTab_Click);
+            // 
+            // defaultChosenRate
+            // 
+            this.defaultChosenRate.AutoSize = true;
+            this.defaultChosenRate.ForeColor = System.Drawing.SystemColors.Desktop;
+            this.defaultChosenRate.Location = new System.Drawing.Point(131, 100);
+            this.defaultChosenRate.Name = "defaultChosenRate";
+            this.defaultChosenRate.Size = new System.Drawing.Size(87, 13);
+            this.defaultChosenRate.TabIndex = 28;
+            this.defaultChosenRate.Text = "B/D @ % Quality";
+            // 
+            // thirdDefaultQualityTextBox
+            // 
+            this.thirdDefaultQualityTextBox.BackColor = System.Drawing.SystemColors.ScrollBar;
+            this.thirdDefaultQualityTextBox.ForeColor = System.Drawing.Color.Red;
+            this.thirdDefaultQualityTextBox.Location = new System.Drawing.Point(25, 97);
+            this.thirdDefaultQualityTextBox.Name = "thirdDefaultQualityTextBox";
+            this.thirdDefaultQualityTextBox.ReadOnly = true;
+            this.thirdDefaultQualityTextBox.Size = new System.Drawing.Size(100, 20);
+            this.thirdDefaultQualityTextBox.TabIndex = 27;
             // 
             // qualityLabel3
             // 
@@ -425,7 +450,7 @@
             // 
             this.secondDefaultQualityTextBox.BackColor = System.Drawing.SystemColors.ScrollBar;
             this.secondDefaultQualityTextBox.ForeColor = System.Drawing.Color.Red;
-            this.secondDefaultQualityTextBox.Location = new System.Drawing.Point(25, 88);
+            this.secondDefaultQualityTextBox.Location = new System.Drawing.Point(25, 71);
             this.secondDefaultQualityTextBox.Name = "secondDefaultQualityTextBox";
             this.secondDefaultQualityTextBox.ReadOnly = true;
             this.secondDefaultQualityTextBox.Size = new System.Drawing.Size(100, 20);
@@ -445,7 +470,7 @@
             // 
             this.default70Rate.AutoSize = true;
             this.default70Rate.ForeColor = System.Drawing.SystemColors.Desktop;
-            this.default70Rate.Location = new System.Drawing.Point(131, 91);
+            this.default70Rate.Location = new System.Drawing.Point(131, 74);
             this.default70Rate.Name = "default70Rate";
             this.default70Rate.Size = new System.Drawing.Size(99, 13);
             this.default70Rate.TabIndex = 10;
@@ -477,6 +502,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(536, 506);
             this.Controls.Add(this.formTabControl);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "cweForm";
             this.Text = "cweForm";
             this.Load += new System.EventHandler(this.cweForm_Load);
@@ -529,6 +555,8 @@
         private System.Windows.Forms.Button calculatePerfsButton;
         private System.Windows.Forms.TextBox numPerfsTextBox;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label defaultChosenRate;
+        private System.Windows.Forms.TextBox thirdDefaultQualityTextBox;
     }
 }
 

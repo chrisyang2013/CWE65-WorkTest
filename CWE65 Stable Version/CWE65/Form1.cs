@@ -123,7 +123,7 @@ namespace CWE65
                 }
             }
         }
-         private void calculate70FunctionClick(object sender, EventArgs e)
+        private void calculate70FunctionClick(object sender, EventArgs e)
         {
             try
             {
@@ -143,7 +143,7 @@ namespace CWE65
                 return;
             }
         }
-         private void addPerfButton_Click(object sender, EventArgs e)
+        private void addPerfButton_Click(object sender, EventArgs e)
          {
              BD = 0;
              try 
@@ -156,7 +156,7 @@ namespace CWE65
                  return;
              }      
          }
-         private void calculatePerfTheoreticals(object sender, EventArgs e)
+        private void calculatePerfTheoreticals(object sender, EventArgs e)
          {
              try
              {
@@ -397,6 +397,9 @@ namespace CWE65
             //BPD1 = (XX * velocity) / VG;
             BPD65 = (pipeValueSize * velocity) / (VG * 0.65);//this is 65% quality steam
             BPD7 = (pipeValueSize * velocity) / (VG * 0.70);//this is 70% quality steam
+
+            float chosenPercent = float.Parse(qualityDropBox.Text) / 100f;
+            BPD1 = (pipeValueSize * velocity) / (VG * chosenPercent);//this is chosen quality steam//chris
             /*if (Q > 0.01)
             {
                 BPD = (XX * velocity) / (VG * Q);
@@ -407,8 +410,11 @@ namespace CWE65
             }*/
             /** changes a textbox that is always set at 70% quality and non-theoretical */
 
-            secondDefaultQualityTextBox.Text = Convert.ToString(Math.Round(BPD7));
             firstDefaultQualityTextBox.Text = Convert.ToString(Math.Round(BPD65));
+            secondDefaultQualityTextBox.Text = Convert.ToString(Math.Round(BPD7));
+
+            defaultChosenRate.Text = "B/D @ " + qualityDropBox.Text + "% Quality";
+            thirdDefaultQualityTextBox.Text = Convert.ToString(Math.Round(BPD1));
         }
         
         #region Initialize Position Arrays
